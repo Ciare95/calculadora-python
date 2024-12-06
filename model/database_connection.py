@@ -13,7 +13,7 @@ class DatabaseConnection:
             if self.conn.is_connected():
                 print("Conexión exitosa a la base de datos")
             
-        except Error as e:
+        except Error as e:  
             print(f"Error al conectar la base de datos: {e}")
             
             
